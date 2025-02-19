@@ -1,0 +1,3 @@
+/home/anna2003/cylindrical-detector/build/CMakeFiles/cylinder_detector.dir
+/home/anna2003/cylindrical-detector/build/CMakeFiles/edit_cache.dir
+/home/anna2003/cylindrical-detector/build/CMakeFiles/rebuild_cache.dir

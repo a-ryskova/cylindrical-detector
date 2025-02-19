@@ -1,0 +1,3 @@
+Run Statistics:
+Total Neutrons Passed: 0
+Total Absorbed Energy: 0 MeV
