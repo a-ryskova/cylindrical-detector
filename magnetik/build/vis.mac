@@ -1,0 +1,33 @@
+# Инициализация визуализации
+/vis/initialize
+
+# Открываем OpenGL визуализатор
+/vis/open OGL 600x600-0+0
+
+# Настройки просмотра
+/vis/viewer/set/viewpointVector 1 1 1
+/vis/drawVolume
+/vis/viewer/set/autoRefresh true
+
+# Добавление траекторий и попаданий
+/vis/scene/add/trajectories
+/vis/scene/add/hits
+
+# Настройка отрисовки траекторий
+/vis/modeling/trajectories/create/drawByParticleID
+/vis/modeling/trajectories/drawByParticleID-0/set/width 2
+
+# Настройка цветов для частиц
+/vis/modeling/trajectories/drawByParticleID-0/set/default/color green
+/vis/modeling/trajectories/drawByParticleID-0/neutron/color blue
+/vis/modeling/trajectories/drawByParticleID-0/gamma/color red
+
+# Настройка отображения точек
+/vis/modeling/trajectories/drawByParticleID-0/default/setDrawStepPts true
+/vis/modeling/trajectories/drawByParticleID-0/default/setStepPtsSize 2
+
+# Накопление событий
+/vis/scene/endOfEventAction accumulate
+
+# Обновление отображения
+/vis/viewer/refresh
