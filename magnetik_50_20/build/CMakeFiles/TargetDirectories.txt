@@ -1,0 +1,3 @@
+/home/anna2003/magnetik/build/CMakeFiles/cylinder_detector.dir
+/home/anna2003/magnetik/build/CMakeFiles/edit_cache.dir
+/home/anna2003/magnetik/build/CMakeFiles/rebuild_cache.dir
