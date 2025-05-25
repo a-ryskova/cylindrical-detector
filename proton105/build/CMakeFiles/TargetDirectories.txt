@@ -1,0 +1,3 @@
+/home/anna2003/magnetik2/build/CMakeFiles/kaonTracker.dir
+/home/anna2003/magnetik2/build/CMakeFiles/edit_cache.dir
+/home/anna2003/magnetik2/build/CMakeFiles/rebuild_cache.dir
